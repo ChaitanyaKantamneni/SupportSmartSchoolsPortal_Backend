@@ -48,6 +48,7 @@ namespace SchoolSupportPortal.Controllers
             {
                 return BadRequest(new { StatusCode = 400, Success = false, Message = "Internal server error.", Error = ex.Message });
             }
+            //basic change in controller by chaitanya
         }
     }
 }
